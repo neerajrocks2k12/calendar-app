@@ -3,7 +3,7 @@
 <form id="1" name="Patient Registration" submitTo="https://SomeRandomServerHere/Endpointoacceptthedata" >
 <field name="fname" label="First Name" type="text" required="Y" options=""/>
 <field name="lname" label="Last Name" type="text" required="Y" options=""/>
-<field name="gender" label="Gender" type="choice" required="Y" options="Male"/>
+<field name="gender" label="Gender" type="choice" required="Y" options="Male|Female|Other"/>
 <field name="age" label="Age" type="numeric" required="N" options=""/>
 <field name="isPregnant" label="isPregnant" type="choice" required="Y" options="True|False"/>
 </form>
