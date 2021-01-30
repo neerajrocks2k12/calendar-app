@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xmlgui>
-<form id="1" name="Patient Registration" submitTo="https://SomeRandomServerHere/Endpointoacceptthedata" >
+<form id="1" name="Patient Registration" submitTo="https://somerandomserver/Endpointoacceptthedata" >
 <field name="fname" label="First Name" type="text" required="Y" options=""/>
 <field name="lname" label="Last Name" type="text" required="Y" options=""/>
 <field name="gender" label="Gender" type="choice" required="Y" options="Male|Female|Other"/>
